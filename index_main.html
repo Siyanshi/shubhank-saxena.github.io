@@ -15,7 +15,7 @@
 		Load Fonts
 	-->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-	<link rel="stylesheet" href="use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" crossorigin="anonymous">
 	<!--
 		Load CSS
 	-->
@@ -136,11 +136,11 @@
 					<div class="subtitle">Electronics and Communication Engineer</div>
 					<!-- profile socials -->
 					<div class="social">
-						<a target="_blank" href="https://dribbble.com/"><span class="fab fa-dribbble"></span></a>
-						<a target="_blank" href="https://twitter.com/"><span class="fab fa-twitter"></span></a>
-						<a target="_blank" href="https://github.com/"><span class="fab fa-github"></span></a>
-						<a target="_blank" href="https://www.spotify.com/"><span class="fab fa-spotify"></span></a>
-						<a target="_blank" href="https://stackoverflow.com/"><span class="fab fa-stack-overflow"></span></a>
+						<a target="" href="https://facebook.com/"><span class="fab fa-twitter"></span></a>
+						<a target="" href="https://twitter.com/"><span class="fab fa-facebook"></span></a>
+						<a target="" href="https://github.com/"><span class="fab fa-github"></span></a>
+						<a target="" href="https://www.spotify.com/"><span class="fab fa-instagram"></span></a>
+						<a target="" href="https://stackoverflow.com/"><span class="fab fa-stack-overflow"></span></a>
 					</div>
 					<!-- profile buttons -->
 					<div class="lnks">
@@ -211,9 +211,10 @@
 							<div class="col col-d-6 col-t-6 col-m-12 border-line-h">
 								<div class="service-item">
 									<div class="icon"><span class="ion ion-battery-half"></span></div>
-									<div class="name">Music Writing</div>
+									<div class="name">Hardware</div>
 									<p>
-										Music copying, transcription, arranging and composition services.
+										Manufacturing user ready IoT devices and hardware.
+										<br><br>
 									</p>
 								</div>
 							</div>
@@ -221,22 +222,14 @@
 							<div class="col col-d-6 col-t-6 col-m-12">
 								<div class="service-item">
 									<div class="icon"><span class="ion ion-speakerphone"></span></div>
-									<div class="name">Advetising</div>
+									<div class="name">Spoken</div>
 									<p>
-										Advertising services include television, radio, print, mail and web.
+										Fluency over the spoken skills with good orating skills and ambient stage presence.
 									</p>
 								</div>
 							</div>
 							<!-- service item -->
-							<div class="col col-d-6 col-t-6 col-m-12">
-								<div class="service-item">
-									<div class="icon"><span class="ion ion-ios-game-controller-b"></span></div>
-									<div class="name">Game Development</div>
-									<p>
-										Developing memorable and unique mobile android, ios games.
-									</p>
-								</div>
-							</div>
+							
 							<div class="clear"></div>
 						</div>
 					</div>
@@ -292,15 +285,7 @@
 						<!-- content -->
 						<div class="row client-items">
 							<!-- client item -->
-							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-								<div class="client-item">
-									<div class="image">
-										<a target="_blank" href="https://www.google.com">
-											<img src="vcard/images/clients/client_1.png" alt="" />
-										</a>
-									</div>
-								</div>
-							</div>
+						<h2>Yet to work</h2>
 							
 							<div class="clear"></div>
 						</div>
@@ -516,6 +501,9 @@
 			<!--
 				Card - Blog
 			-->
+			<div class="card-inner blog" id="blog-card">
+				<div class="card-wrap"><h1>Coming Soon</h1></div>
+			</div>
 			
 			<!--
 				Card - Contacts
@@ -544,6 +532,8 @@
 							<div class="clear"></div>
 						</div>
 					</div>
+
+					                                                                                                                      
 					<!--
 						Contact Form
 					-->
@@ -606,22 +596,30 @@
 	-->
 	<script>
 // Initialize and add the map
+
 function initMap() {
-  
-  var patiala = {lat: 30.340000, lng: 76.379997};
-  
-  var map = new google.maps.Map(
-  	document.getElementById('map'), {zoom: 4, center: patiala});
-  
-  var marker = new google.maps.Marker({position: patiala, map: map});
+  var myLatLng = {lat: -25.363, lng: 131.044};
+
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 4,
+    center: myLatLng
+  });
+
+  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    
+  });
 }
-</script>
+    </script>
+
 <script async defer
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBG8kzdEcGFzuJBBMMk42CCiAcr9J7XQF4&callback=initMap">
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9Aj0faCbo20sIhn1RmSQczoKYOe9JuRs&callback=initMap">
 </script>
 	<!--
 		Main Scripts
 	-->
 	<script src="vcard/js/scripts.js"></script>
 </body>
-</html>
+</html
+

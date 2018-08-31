@@ -16,7 +16,7 @@ body, html {
 }
 
 .bg-dkblue {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/hero1.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./img/hero1.jpg');
     background: #053140;
     /* blish */
     background: #5c0b6b;
@@ -26,7 +26,7 @@ body, html {
 }
 
 .transparent-img {
-    background-image: url("img/work.png");
+    background-image: url("./img/work.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -112,15 +112,8 @@ body, html {
 
 /*
 * use typer.js to add an interaction first like --->
-     So you have found it,the  welcome to my portfolio , ..
-     or ---
-     Hmmm , Let me check ,
-     You have stumbled upon Aditya's Portfolio ,
-     Many say he is a front end dev ,
-     but there is a 90% probability that he does other cool stuff too .
-     He is a good guy (one of those open source fellows)
-     lets see more of him
-     To proceed , just do nothing . 
+
+     
 */
 
 
